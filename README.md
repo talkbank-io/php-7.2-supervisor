@@ -1,4 +1,4 @@
-# php7.2-supervisor
-php 7.2 image without fpm (supervisor)
+# php7.3-supervisor
+php 7.3 image without fpm (supervisor)
 
-``FROM talkbank/php7.2-supervisor``
+``FROM talkbank/php-supervisor:version7.3``
