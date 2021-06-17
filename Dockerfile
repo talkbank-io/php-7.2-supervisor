@@ -8,7 +8,7 @@ RUN mkdir -p /var/www/ \
 
 RUN apt update && apt -y upgrade
 
-RUN apt install -y php7.2-cli php7.2-gmp php7.2-json php7.2-iconv php7.2-ctype php7.2-soap php7.2-dom php7.2-bcmath php7.2-pgsql php7.2-mongodb php7.2-mbstring php7.2-intl php7.2-curl php7.2-redis php7.2-zip php7.2-gd
+RUN apt install -y php7.3-cli php7.3-gmp php7.3-json php7.3-iconv php7.3-ctype php7.3-soap php7.3-dom php7.3-bcmath php7.3-pgsql php7.3-mongodb php7.3-mbstring php7.3-intl php7.3-curl php7.3-redis php7.3-zip php7.3-gd
 RUN apt install -y composer supervisor cron
 
 RUN apt-get install -y --no-install-recommends \
